@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(5, 200px);
+            grid-template-areas:
+            "ko ko ko ko"
+            "kh jo da ai"
+            "ar ar ph ai"
+            "ar ar ph ai"
+            "ad ad ad ad"
+            ;
+
+            
+        }
+        ul li :nth-child(1){
+            grid-area: ko;
+        }
+        li:nth-of-type(2){
+            grid-area: kh;
+        }
+        li:nth-of-type(3){
+            grid-area: ar;
+        }
+        li:nth-of-type(4){
+            grid-area: ar;
+        }
+        li:nth-of-type(5){
+            grid-area: ad;
+        }
+        
+        
+        div{
+            border: 5px solid;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <ul>
+        <li>a1</li>
+        <li>b2</li>
+        <li>c3</li>
+        <li>d4</li>
+        <li>e5</li>
+        
+        
+</ul>
+</body>
+</html>
