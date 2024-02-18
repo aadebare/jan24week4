@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            height: 500px;
+            width: 500px;
+            background-color: red;
+            margin: auto;
+            transition-duration: 500ms;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+            transition-delay: 500ms;
+        }
+        h1:hover{
+            background-color: black;
+            transform: rotate(45deg);
+        }
+        .first{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out;
+            transition-delay: 500ms;
+            transition-property: all;
+            
+        }
+        .second{
+            height: 150px;
+            width: 150px;
+            background-color: aquamarine;
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out;
+            transition-delay: 500ms;
+            transition-property: all;
+        }
+        .third{
+            height: 150px;
+            width: 150px;
+            background-color: bisque;
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out;
+            transition-delay: 500ms;
+            transition-property: all;
+        }
+        .fourth{
+            height: 150px;
+            width: 150px;
+            background-color: blueviolet;
+            transition-duration: 300ms;
+            transition-timing-function: ease-in-out;
+            transition-delay: 500ms;
+            transition-property: width;
+        }
+        h2{
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1000ms;
+            transition-property: width;
+        }
+        h2 :hover{
+            width: 300px;
+        }
+        h3{
+            height: 350px;
+            width: 350px;
+            background-color: blue;
+            transition-duration: 1000ms;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+            transition-delay: 500ms;
+            margin: auto;
+            
+        }
+        h3:hover{
+            width: 600px;
+            height: 600px;
+            background-color: green;
+            transform: rotate(180deg);
+            border-radius: 50%;
+            
+        }
+        h4 ul{
+            transition-duration: 500ms;
+            transition-property: all;
+            transition-delay: 500ms;
+        }
+        h4 ul :first-child{
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            transition-timing-function: ease-in;
+        }
+        h4 ul :nth-child(2){
+            background-color: blueviolet;
+            height: 200px;
+            width: 200px;
+            transition-timing-function: ease-in-out;
+        }
+        h4 ul :nth-child(3){
+            background-color: brown;
+            height: 200px;
+            width: 200px;
+            transition-timing-function: ease-out;
+        }
+        h4 ul :last-child{
+            background-color: burlywood;
+            height: 200px;
+            width: 200px;
+            transition-timing-function: ease ;
+        }
+        h4 ul:hover{
+            width: 400px;
+            
+        }
+        h5{
+            height: 300px;
+            width: 300px;
+            background-color: cyan;
+            transition-duration: 1000ms;
+            transition-property: all;
+            transition-timing-function: ease-out;
+            transition-delay: 350ms;
+            margin: auto;
+        }
+        h5:hover{
+            width: 600px;
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1></h1><br><br><br><br>
+    <h2>
+        <ul class="first">first box</ul>
+        <ul class="second">second box</ul>
+        <ul class="third">third box</ul>
+        <ul class="fourth">fourth box</ul>
+    </h2>
+    <h3></h3>
+    <h4>
+        <ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+        </ul>
+    </h4><br><br><br>
+    <h5></h5>
+
+    
+</body>
+</html>
